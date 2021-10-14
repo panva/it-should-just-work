@@ -1,6 +1,6 @@
 const test = require('ava');
 
-const { generateSecret } = require("jose/util/generate_secret");
+const { generateSecret } = require("jose");
 
 test('it works in .cjs', async t => {
   t.is(typeof generateSecret, 'function');

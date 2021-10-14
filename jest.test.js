@@ -1,4 +1,4 @@
-const { generateSecret } = require("jose/util/generate_secret");
+const { generateSecret } = require("jose");
 
 test('it works in .js', async () => {
   expect(typeof generateSecret).toBe('function');

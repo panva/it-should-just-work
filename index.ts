@@ -1,9 +1,11 @@
-import { generateKeyPair } from "jose/util/generate_key_pair";
-import { SignJWT } from "jose/jwt/sign";
-import { jwtVerify } from "jose/jwt/verify";
-import { EncryptJWT } from "jose/jwt/encrypt";
-import { jwtDecrypt } from "jose/jwt/decrypt";
-import { generateSecret } from "jose/util/generate_secret";
+import {
+  generateKeyPair,
+  SignJWT,
+  jwtVerify,
+  EncryptJWT,
+  jwtDecrypt,
+  generateSecret
+} from "jose"
 
 (async () => {
   {

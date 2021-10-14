@@ -11,12 +11,12 @@
     "test-rollup": "rollup -c rollup.config.js",
     "test-esbuild-browser": "esbuild --platform=browser --bundle index.ts",
     "test-esbuild-node": "esbuild --platform=node --bundle index.ts",
-    "test-jest": "jest --resolver='./temporary_resolver.js' 'jest.test.*'"
+    "test-jest": "jest 'jest.test.*'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jose": "^3.17.0"
+    "jose": "^4.0.1"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.4",
